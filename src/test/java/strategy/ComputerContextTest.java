@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import java.util.Optional;
 
-public class ComputeContextTest {
+public class ComputerContextTest {
 
     @Test
     public void create() throws Exception {
