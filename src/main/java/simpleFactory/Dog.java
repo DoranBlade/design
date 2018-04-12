@@ -1,4 +1,4 @@
-package factory;
+package simpleFactory;
 
 public class Dog implements Animal {
 
