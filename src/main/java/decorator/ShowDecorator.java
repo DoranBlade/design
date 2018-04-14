@@ -1,10 +1,10 @@
 package decorator;
 
-public abstract class PersonDecorator extends Person2 {
+public abstract class ShowDecorator implements Shower {
 
-    private Person2 component;
+    private Shower component;
 
-    public void decorator(Person2 component) {
+    public void decorator(Shower component) {
         this.component = component;
     }
 

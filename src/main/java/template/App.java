@@ -1,6 +1,6 @@
 package template;
 
-public class Run {
+public class App {
 
     public static void main(String[] args) {
         Template templateA = new ChildrenA();

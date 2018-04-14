@@ -1,6 +1,6 @@
 package decorator;
 
-public class TShirtPersonDecorator extends PersonDecorator {
+public class TShirtShowDecorator extends ShowDecorator {
 
     @Override
     public void show() {
