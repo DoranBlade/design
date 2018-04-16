@@ -1,0 +1,8 @@
+package iteration;
+
+public interface Iterator<T> {
+
+    T next();
+
+    boolean hasNext();
+}
