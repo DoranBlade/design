@@ -9,7 +9,7 @@ public class App {
         handler1.setSuccessor(handler2);
         handler2.setSuccessor(handler3);
 
-        int[] reqs = new int[]{2,6,13,17,20,23};
+        int[] reqs = new int[]{2, 6, 13, 17, 20, 23};
         for (int req : reqs) {
             handler1.handler(req);
         }

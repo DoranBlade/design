@@ -6,7 +6,7 @@ public class EveningHandler extends Handler {
     public void handler(int req) {
         if (req < 24) {
             System.out.println("evening handler");
-        } else if(successor != null) {
+        } else if (successor != null) {
             successor.handler(req);
         }
     }

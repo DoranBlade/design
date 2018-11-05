@@ -6,7 +6,7 @@ public class AfterHandler extends Handler {
     public void handler(int req) {
         if (req < 18) {
             System.out.println("after handler");
-        } else if(successor != null) {
+        } else if (successor != null) {
             successor.handler(req);
         }
     }

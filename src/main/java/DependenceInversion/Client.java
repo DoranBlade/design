@@ -10,7 +10,7 @@ public class Client {
     }
 
     public void print() {
-        System.out.println(computer.compute(2 ,2));
+        System.out.println(computer.compute(2, 2));
     }
 
 }

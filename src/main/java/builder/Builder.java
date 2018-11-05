@@ -12,5 +12,5 @@ public abstract class Builder {
 
     public abstract Product buildFun();
 
-    public  abstract Product buildStudy();
+    public abstract Product buildStudy();
 }
